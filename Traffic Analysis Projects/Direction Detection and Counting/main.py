@@ -120,7 +120,7 @@ while True:
     # print("Left Direction Counter: ", len(list(left.keys())))
     # print("Right Direction Counter: ", len(list(right.keys())))
     
-    up_counter_text = "Up Direction Counter: {}".format(str(len(list(up.keys()))))
+    up_counter_text = "Up Direction Counter: {}".format(str(len(list(up.keys())))) #str. çevirdik
     down_counter_text = "Down Direction Counter: {}".format(str(len(list(down.keys()))))
     left_counter_text = "Left Direction Counter: {}".format(str(len(list(left.keys()))))
     right_counter_text = "Right Direction Counter: {}".format(str(len(list(right.keys()))))
